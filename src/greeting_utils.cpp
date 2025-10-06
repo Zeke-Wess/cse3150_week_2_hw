@@ -14,7 +14,7 @@ namespace GreetingUtils {
 		for (int i =0; i<length; i++) {
 			cString[i] = msg[i];
 		}
-		cString[length+1] = '\0';
+		cString[length] = '\0';
 		return cString;
 	}
 }
